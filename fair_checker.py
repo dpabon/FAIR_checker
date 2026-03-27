@@ -486,7 +486,7 @@ def check_doi_resolves(doi):
     except:
         return False
 
-_PREFERRED_FORMATS = {'.geojson', '.tif', '.tiff', '.nc', '.zarr', '.shp', '.parquet', '.h5', '.hdf5', '.gpkg'}
+_PREFERRED_FORMATS = {'.geojson', '.tif', '.tiff', '.nc', '.zarr', '.zarr.zip', '.shp', '.parquet', '.h5', '.hdf5', '.gpkg'}
 _UNACCEPTABLE_FORMATS = {'.csv', '.json', '.txt', '.xml'}
 _PROPRIETARY_FORMATS = {'.xlsx', '.xls', '.doc', '.docx'}
 
